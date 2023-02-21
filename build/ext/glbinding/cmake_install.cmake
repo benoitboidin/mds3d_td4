@@ -1,4 +1,4 @@
-# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding
+# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,32 +38,32 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/ext/glbinding/VERSION")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/ext/glbinding/VERSION")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding/glbinding-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding/glbinding-config.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding/AUTHORS")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding/AUTHORS")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding/LICENSE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE FILE FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding/README.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "examples_data" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE DIRECTORY FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glbinding/data")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/glbinding" TYPE DIRECTORY FILES "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glbinding/data")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/ext/glbinding/source/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/ext/glbinding/source/cmake_install.cmake")
 
 endif()
 

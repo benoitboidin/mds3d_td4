@@ -1,7 +1,7 @@
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o: \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.cpp \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjUtil.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.cpp \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjUtil.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \

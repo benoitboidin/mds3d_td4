@@ -59,7 +59,7 @@ void Camera::rotateAroundTarget(float angle, Vector3f axis)
 {
   // TODO
   Vector3f t = Affine3f(mViewMatrix) * mTarget;
-  mViewMatrix = Affine3f(Translation3f(t) * AngleAxisf(angle, axis) * Translation3f(-t)) * mViewMatrix;
+  mViewMatrix = Affine3f(Translation3f(t) * AngleAxisf(-angle, axis) * Translation3f(-t)) * mViewMatrix;
 }
 
 Camera::~Camera()

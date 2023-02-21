@@ -1,4 +1,4 @@
-# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glfw
+# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/ext/glfw/src/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/ext/glfw/src/cmake_install.cmake")
 
 endif()
 

@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glfw/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/glfw/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/ext/glfw/src
+C_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glfw/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/glfw/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/ext/glfw/src
 
 C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC   -Wall -Wall
 

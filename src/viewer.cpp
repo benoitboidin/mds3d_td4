@@ -20,7 +20,7 @@ void Viewer::init(int w, int h){
     loadShaders();
 
     // if(!_mesh.load(DATA_DIR"/models/quad.off")) exit(1);
-    if(!_mesh.load(DATA_DIR"/models/monkey.obj")) exit(1);
+    if(!_mesh.load(DATA_DIR"/models/sphere.obj")) exit(1);
     _mesh.initVBA();
 
     reshape(w,h);
@@ -122,10 +122,39 @@ void Viewer::drawScene()
   _shader.deactivate();
 }
 
+void Viewer::drawSystem()
+{
+  glViewport(0, 0, _winWidth, _winHeight);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+  _shader.activate();
+  glUniformMatrix4fv(_shader.getUniformLocation("mat_cam"), 1, GL_FALSE, _cam.viewMatrix().data());
+
+    
+
+  _mesh.draw(_shader);
+
+  if(_wireframe)
+  {
+    glUniform1i(_shader.getUniformLocation("wireframe"), 1);
+    glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
+    glDepthFunc(GL_LEQUAL);
+
+    _mesh.draw(_shader);
+    
+    glUniform1i(_shader.getUniformLocation("wireframe"), 0);
+    glPolygonMode(GL_FRONT_AND_BACK,GL_FILL);
+    glDepthFunc(GL_LESS);
+  }
+
+  _shader.deactivate();
+}
+
 
 void Viewer::updateAndDrawScene()
 {
-    drawScene(); 
+    // drawScene2D();
+    // drawScene();
+    drawSystem(); 
 }
 
 void Viewer::loadShaders()

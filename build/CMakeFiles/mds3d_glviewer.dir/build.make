@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4
+CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build
+CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mds3d_glviewer.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/mds3d_glviewer.dir/progress.make
 include CMakeFiles/mds3d_glviewer.dir/flags.make
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.cpp
+CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.cpp
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.cpp
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.cpp > CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.cpp > CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjFormat.cpp -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjFormat.cpp -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjFormat.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjUtil.cpp
+CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjUtil.cpp
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjUtil.cpp
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjUtil.cpp > CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjUtil.cpp > CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/ext/ObjFormat/ObjUtil.cpp -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/ext/ObjFormat/ObjUtil.cpp -o CMakeFiles/mds3d_glviewer.dir/ext/ObjFormat/ObjUtil.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/main.cpp
+CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/main.cpp
 CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/main.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/main.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/main.cpp > CMakeFiles/mds3d_glviewer.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/main.cpp > CMakeFiles/mds3d_glviewer.dir/src/main.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/main.cpp -o CMakeFiles/mds3d_glviewer.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/main.cpp -o CMakeFiles/mds3d_glviewer.dir/src/main.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/viewer.cpp
+CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/viewer.cpp
 CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/viewer.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/viewer.cpp > CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/viewer.cpp > CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/viewer.cpp -o CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/viewer.cpp -o CMakeFiles/mds3d_glviewer.dir/src/viewer.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/shader.cpp
+CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/shader.cpp
 CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/shader.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/shader.cpp > CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/shader.cpp > CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/shader.cpp -o CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/shader.cpp -o CMakeFiles/mds3d_glviewer.dir/src/shader.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/camera.cpp
+CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/camera.cpp
 CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/camera.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/camera.cpp > CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/camera.cpp > CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/camera.cpp -o CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/camera.cpp -o CMakeFiles/mds3d_glviewer.dir/src/camera.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/mesh.cpp
+CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/mesh.cpp
 CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/mesh.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/mesh.cpp > CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/mesh.cpp > CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/mesh.cpp -o CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/mesh.cpp -o CMakeFiles/mds3d_glviewer.dir/src/mesh.cpp.s
 
 CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o: CMakeFiles/mds3d_glviewer.dir/flags.make
-CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/trackball.cpp
+CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/trackball.cpp
 CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o: CMakeFiles/mds3d_glviewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/trackball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o -MF CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o.d -o CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/trackball.cpp
 
 CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/trackball.cpp > CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/trackball.cpp > CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.i
 
 CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/src/trackball.cpp -o CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/src/trackball.cpp -o CMakeFiles/mds3d_glviewer.dir/src/trackball.cpp.s
 
 # Object files for target mds3d_glviewer
 mds3d_glviewer_OBJECTS = \
@@ -207,7 +207,7 @@ mds3d_glviewer: CMakeFiles/mds3d_glviewer.dir/build.make
 mds3d_glviewer: ext/glfw/src/libglfw3.a
 mds3d_glviewer: ext/glbinding/libglbinding.a
 mds3d_glviewer: CMakeFiles/mds3d_glviewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable mds3d_glviewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable mds3d_glviewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mds3d_glviewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +219,6 @@ CMakeFiles/mds3d_glviewer.dir/clean:
 .PHONY : CMakeFiles/mds3d_glviewer.dir/clean
 
 CMakeFiles/mds3d_glviewer.dir/depend:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4 /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4 /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/mds3d_td4/build/CMakeFiles/mds3d_glviewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4 /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4 /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp4/mds3d_td4/build/CMakeFiles/mds3d_glviewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mds3d_glviewer.dir/depend
 

@@ -18,6 +18,7 @@ public:
     void init(int w, int h);
     void drawScene();
     void drawScene2D();
+    void drawSystem();
     void updateAndDrawScene();
     void reshape(int w, int h);
     void loadShaders();
